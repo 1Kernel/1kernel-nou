@@ -59,7 +59,7 @@ Kembalikan JSON persis seperti ini (tanpa markdown):
 """
     try:
         res = ai_client.chat.completions.create(
-            model="openrouter/minimax/minimax-m3:free",
+            model="minimax/minimax-m3:free",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.1
         )
