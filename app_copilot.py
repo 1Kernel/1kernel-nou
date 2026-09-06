@@ -17,7 +17,7 @@ market_exchange = get_exchange()
 
 ai_client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=st.secrets["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"]
+    api_key=st.secrets["OPENROUTER_API_KEY"]
 )
 
 # State Storage
